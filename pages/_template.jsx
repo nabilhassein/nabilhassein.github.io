@@ -40,6 +40,43 @@ module.exports = React.createClass({
               nabilhassein.github.io
             </Link>
           </Container>
+          <Container
+            style={{
+              maxWidth: 960,
+              paddingTop: 0,
+              padding: `${rhythm(1)} ${rhythm(1/2)}`,
+            }}
+          >
+            <Link
+              to={prefixLink('/projects')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              Projects
+            </Link>
+            <span> | </span>
+            <Link
+              to={prefixLink('/about')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              About
+            </Link>
+            <span> | </span>
+            <Link
+              to={prefixLink('/contact')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              Contact
+            </Link>
+          </Container>
         </Headroom>
         <Container
           style={{
