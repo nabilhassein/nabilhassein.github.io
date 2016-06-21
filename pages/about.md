@@ -21,7 +21,7 @@ Notable among the many interesting places where I've learned many interesting th
 and the [Recurse Center](https://recurse.com) (formerly known as Hacker School),
 which I've attended twice, in the summer of 2013 and from late March through mid-August 2016 -- that is, currently.
 
-I'm active in the NYC tech community -- for example, I'm one of the organizers of [!!con](bangbangcon.com).
+I'm active in the NYC tech community -- for example, I'm one of the organizers of [!!con](http://bangbangcon.com).
 
 I also do political organizing work in the movement for Black lives,
 but I plan to write about such topics on this blog only to the extent
