@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About me
 path: /about
 ---
 My name is Nabil Hassein and
