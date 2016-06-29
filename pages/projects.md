@@ -12,7 +12,7 @@ If you're interested, you can follow my progress on my not-yet-published project
 # Visualizing NYC criminal court summonses by precinct
 [Live here](https://nabilhassein.github.io/nyc-summons-precinct-visualization)  
 [Code here](https://github.com/nabilhassein/nyc-summons-precinct-visualization)  
-Blogging to come very soon!  
+[Blogged here](/blog/visualizing-nyc-summonses/)  
 
 # p5 sketch: Matrix-style green rain
 [Live here](https://nabilhassein.github.io/p5-sketches)  
