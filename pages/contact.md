@@ -3,7 +3,7 @@ title: Contact
 path: /contact
 ---
 # [Twitter](https://twitter.com/NabilHassein)
-This is the best way to get in touch with me if we haven't met in real life,
+This is the best way to get in touch with me if we haven't met in person,
 and it's also a great way to stay up with me if we have!
 
 I mostly post about politics,
