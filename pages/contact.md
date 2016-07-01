@@ -8,7 +8,7 @@ and it's also a great way to stay up with me if we have!
 
 I mostly post about politics,
 but I'm making an effort to increase the ratio of tech content,
-and particularly the intersection between the two.
+and particularly to focus more of my tweets on the intersection between the two.
 
 # [Github](https://github.com/nabilhassein)
 Social coding! Star my repos, send me a pull request, comment on my code with tips or questions, etc.
