@@ -57,6 +57,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/gatsby/bin/gatsby.js develop",
     "deploy": "gh-pages -d public -b master"
   }
 }
