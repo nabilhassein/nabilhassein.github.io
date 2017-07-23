@@ -9,6 +9,11 @@ and consider that it makes sense to spend time documenting them, rather than jus
 
 If you're interested, you can follow my progress on my not-yet-published projects on [my github](https://github.com/nabilhassein/).
 
+# generative-DOOM
+[Live here](https://nabilhassein.github.io/generative-DOOM)  
+[Code here](https://github.com/nabilhassein/generative-DOOM)  
+[Blogged here](/blog/generative-DOOM/)  
+
 # Visualizing NYC criminal court summonses by precinct
 [Live here](https://nabilhassein.github.io/nyc-summons-precinct-visualization)  
 [Code here](https://github.com/nabilhassein/nyc-summons-precinct-visualization)  
