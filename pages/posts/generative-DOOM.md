@@ -69,7 +69,7 @@ I disagree with many things DOOM has said, but I completely endorse DOOM's messa
 Fuck the police from Brooklyn to Palestine. I will conclude on a related theme, but for now let us return to the poetics.
 
 DOOM's verses employ many other poetic qualities that I was vaguely aware of as a longtime fan, but had little occasion to name and think about explicitly.
-During this work, I hand-annotated a few of his verses for some of them, including alliteration, assonance, consonance, slant rhyme and internal rhyme.
+During this work, I hand-annotated a few of his verses (including the one reproduced above) for some of them, including alliteration, assonance, consonance, slant rhyme and internal rhyme.
 (I had to dust off some of my poetry-related vocabulary, untouched as much of it was since high school English class.)
 It was inspiring and humbling to consider just how much DOOM is able to pack into so few words. Contrast my struggle to write short blog posts.
 But anyway, I'd like to share a few more thoughts this project provoked about rhyming and pronunciation in particular.
@@ -82,7 +82,7 @@ library created by [Allison Parrish](https://twitter.com/aparrish), who was one 
 As is documented on Pronouncing's own website, it is based on a pronouncing dictionary which (like many other projects in the history of computing) was funded by the US military through [DARPA](https://en.wikipedia.org/wiki/DARPA).
 Only General American English is represented in the list of pronunciations for a given word.
 
-Now, if you listened to either DOOM song I embedded above or have previous familiarity with him, you are probably aware that he does not usually pronounce words according to the prescriptions of General American English.
+Now, if you listened to the DOOM song I embedded above or have previous familiarity with him, you are probably aware that he does not usually pronounce words according to the prescriptions of General American English.
 Like many MCs, he typically employs African American Vernacular English (AAVE), although again like many MCs, he will sometimes pronounce the same words differently for reasons of character and narrative, or to obtain more rhymes.
 
 Therefore, since my program depends on Pronouncing to generate pairs of rhyming words, many rhymes that DOOM might make, or has in fact made, will not be captured by `generative-DOOM` as it exists now.
@@ -97,7 +97,8 @@ I will not attempt here to survey the many other documented instances of racism,
 
 ## Decolonizing Pronouncing
 Instead, I attempt to conclude with a productive suggestion specific to the example of this post.
-I'm far from being a linguistics expert, so perhaps my speculations here are off base, but I believe it's technically feasible to at least partially remedy this situation by making use of some well-known facts about English dialects such as AAVE, specifically phonology (literally the "study of sounds").
+I'm far from being a linguistics expert, so perhaps my speculations here are off base, but I believe it's technically feasible to at least partially remedy this situation by making use of some well-known facts about English dialects such as AAVE.
+Since we are discussing pronunciation, we are interested specifically in a branch of linguistics called phonology (literally meaning the "study of sounds").
 
 For example, in AAVE "first" and "verse" are rhymes due to the phenomenon of [consonant cluster reduction](https://en.wikipedia.org/wiki/Cluster_reduction).
 Not every transformation between General American English and AAVE (or any of the many other English dialects that might be of interest to software artists) can be captured by such rules, but I believe this one is completely regular, or at least mostly regular.
