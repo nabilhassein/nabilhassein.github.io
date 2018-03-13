@@ -2,10 +2,8 @@
 title: Projects
 path: /projects
 ---
-All of these projects are incomplete in the sense that I have ideas for more work I could do on each of them,
-but that will always be the case -- at some point you have to just move onto another project.
-I've done enough work on these projects to be willing to post them live online,
-and consider that it makes sense to spend time documenting them, rather than just doing more coding work on them.
+All of these projects are incomplete in the sense that I have ideas for more work I could do on each of them, but that will always be the case -- at some point you have to just move onto another project.
+I've done enough work on these projects to be willing to post them live online, and consider that it makes sense to spend time documenting them, rather than just doing more coding work on them.
 
 If you're interested, you can follow my progress on my not-yet-published projects on [my github](https://github.com/nabilhassein/).
 
