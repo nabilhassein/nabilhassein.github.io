@@ -63,7 +63,7 @@ All that downer stuff about software and the industry said, I very much enjoyed 
 It is called "Recreating the Past" and in it, we study the work of influential computational artists, and either imitate or respond to them.
 I'm glad for the opportunity to use code to create visual art, an area I've long considered a major weakness of mine, and I think it will nicely complement my independent study of drawing and other classical visual arts.
 You can play with my first homework [here](https://nabilhassein.github.io/sketches).
-It is an interactive response to this work of Vera Molnar's:
+It is an interactive response to this work by [Vera Molnár](https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r):
 
 ![various more or less distorted concentric squares, by Vera Molnar](/media/vera-molnar.jpg)
 
@@ -146,7 +146,8 @@ Mark your calendar for at least one of the three dates!
 So far I have only the vaguest ideas of what I might wish to build and show.
 To find out, come in person to 155 Bank Street or view the livestream (link forthcoming!)
 
-Outside SFPC, a few other things I have coming up include organizing [!!con](http://bangbangcon.com), speaking at [deconstructconf](https://www.deconstructconf.com/), and publishing my longest yet political article after months of agonizing research and writing called "Ecological Prospects for Computing" in the forthcoming issue #10 of [The Recompiler](https://recompilermag.com/).
+Outside SFPC, a few other things I have coming up include co-organizing [!!con](http://bangbangcon.com) here in NYC on May 12-13, speaking at [deconstructconf](https://www.deconstructconf.com/) on May 21st or 22nd in Seattle, and publishing my longest yet political article after months of agonizing research and writing.
+It is called "Ecological Prospects for Computing" and will appear in the forthcoming issue #10 of [The Recompiler](https://recompilermag.com/), due in print in May and online in June.
 Stay tuned!
 
 To conclude this reflection, I will share some thoughts prompted by [a rhyme from Killer Mike](https://youtu.be/BEOximWoFd0?t=121) that I've had many previous opportunities to consider.
@@ -157,9 +158,9 @@ To conclude this reflection, I will share some thoughts prompted by [a rhyme fro
 Despite my negative feelings towards the software industry, the savings I accumulated during my time working in it are the only reason I am able to pay tuition for SFPC ($5500 altogether) as well as continue paying my rent while working only part-time during these ten weeks.
 This leaves me feeling ambiguous about some of the other activities I engage in, such as volunteering at a high school in my neighborhood teaching introductory web development with [ScriptEd](https://scripted.org/), a nonprofit dedicated to getting underrepresented groups such as Black people into careers in technology.
 I'm not sure how much sense it makes for me to invest energy in getting others into spaces I dislike and am trying to leave.
-On the other hand, it's not like I think other careers are too likely to be fun or free of racism either, and since until we overthrow capitalism they're going to have to work in one or another of these industries, I certainly don't wish to pull shut behind me a door I was able to benefit from passing through.
+On the other hand, it's not like I think many other careers are too likely to be fun or free of racism either, and since until we overthrow capitalism they're going to have to work in one or another of these industries, I certainly don't wish to pull shut behind me a door I was able to benefit from passing through.
 
-And of course, the whole point (or at least part of the point) of SFPC is that there are many possibilities for how to use the technical skills I've been developing besides churning out some venture capitalist's latest terrible app idea.
+And of course, the whole point (or at least part of the point) of SFPC is that there are many possibilities for how to use the technical skills I've been developing besides churning out some the latest terrible app idea for some venture capitalist.
 I hope to have the opportunity to share with my students some of the enormous possibilities of today's technology beyond those directed by the ruling class for their own benefit -- possibilities I'm yet in the early stages of understanding and contributing to, myself.
 As a relatively class privileged Black person, it is necessary for me to find ways to be accountable to others in my community to avoid the temptations decribed by [past revolutionary leaders](https://www.marxists.org/subject/africa/cabral/1966/weapon-theory.htm).
 Sharing this information that I've been given is a part of that process.
