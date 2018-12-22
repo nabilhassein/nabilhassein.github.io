@@ -1,5 +1,5 @@
 ---
-title: "generative-DOOM: on generating rhymes and decolonizing software"
+title: "On Predictive Policing"
 date: "2017-05-09"
 layout: post
 path: "/blog/on-predictive-policing/"
