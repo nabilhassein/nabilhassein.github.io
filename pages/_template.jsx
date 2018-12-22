@@ -48,6 +48,16 @@ module.exports = React.createClass({
             }}
           >
             <Link
+              to={prefixLink('/about')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              About
+            </Link>
+            <span> | </span>
+            <Link
               to={prefixLink('/projects')}
               style={{
                 color: 'black',
@@ -65,16 +75,6 @@ module.exports = React.createClass({
               }}
             >
               Resume
-            </Link>
-            <span> | </span>
-            <Link
-              to={prefixLink('/about')}
-              style={{
-                color: 'black',
-                textDecoration: 'none',
-              }}
-            >
-              About
             </Link>
             <span> | </span>
             <Link
