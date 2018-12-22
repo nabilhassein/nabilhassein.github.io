@@ -2,25 +2,18 @@
 title: About me
 path: /about
 ---
-My name is Nabil Hassein and I am a software developer interested in way too many topics, including full-stack web development, accessible user interfaces, interactive maps, art (especially games!), math, type systems, functional programming, machine learning, interpreters and compilers, and distributed systems including peer-to-peer and blockchain applications.
-
-This is my mostly-technical blog -- I hope you find some of what I write interesting!
-You can also check out [my github](https://github.com/nabilhassein/) for more things that I've worked on than I will have gotten around to documenting on this blog at any given point in time.
+My name is Nabil Hassein and I am a technologist, educator, and organizer.
+I've worked professionally for some years as a programmer and a teacher;
+have participated in grassroots abolitionist campaigns against prisons and police including as an organizer with No New Jails NYC, Millions March NYC, and Survived and Punished NY;
+and have done some other things too, like being an organizer of [!!con](http://bangbangcon.com) from 2016 to 2018.
 
 I was born and raised in Northern Virginia but have lived in New York City since 2008 except for one year.
 I've been staying in Crown Heights, Brooklyn for some while now, and have no intention of moving.
 
-Notable among the many places where I've learned many interesting things are
-[New York University](https://www.nyu.edu), which I graduated in 2012 with a degree in mathematics and computer science,
-the [Recurse Center](https://recurse.com) (formerly known as Hacker School),
-which I've attended twice, in the summer of 2013 and from late March through mid-August 2016,
-and the [School for Poetic Computation](http://sfpc.io), where I am a full-time student at for the [Spring 2018 term](https://medium.com/sfpc/sfpc-spring-2018-students-and-teachers-794423c223e3), and have previously studied at for various brief durations.
+Notable among the places where I've learned many interesting things are
+the [School for Poetic Computation](http://sfpc.io), an independent artist-run hybrid of school, residency and research group, where I was a full-time student for the [Spring 2018 term](https://medium.com/sfpc/sfpc-spring-2018-students-and-teachers-794423c223e3), and had previously studied at for various brief durations, before going on to work there;
+the [Recurse Center](https://recurse.com) (formerly known as Hacker School), a space similar to a writers' retreat for programmers which I've attended twice, in the summer of 2013 and from late March through mid-August 2016;
+and [New York University](https://www.nyu.edu), which I graduated in 2012 with a degree in mathematics and computer science.
 
-I'm active in certain NYC tech communities -- for example, I'm one of the organizers of [!!con](http://bangbangcon.com).
-
-I also do political organizing work in the movement for Black lives, but I plan to write about such topics on this blog only to the extent that they intersect with my work as a technologist.
-My hope is that that will be an increasing extent over time.
-We'll see how that goes.
-In the meanwhile, you can [follow me on twitter](https://twitter.com/NabilHassein) if you're interested in my politics and the other random life topics I tweet about in addition to tech.
-
-Finally, [you can see the source code for this website here](https://github.com/nabilhassein/nabilhassein.github.io/tree/source).
+My relationship with technology has gotten more antagonistic the more I've studied its negative social impacts on the communities I care about, yet I still retain my hope that another technology is possible.
+I believe it's up to us technologists to build it, or else we must be prepared to discard the entire field of computing, given its historical origins in and ongoing entanglement with profound human oppression and ecological destruction.
