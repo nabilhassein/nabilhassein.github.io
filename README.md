@@ -10,9 +10,9 @@ you needed the latest node (from official website, not from apt)
 `npm install`
 `sudo apt-get install g++` for npm install to not fail
 then `npm install` works, with lots of vulnerability warnings...overdue for upgrade
-finally had to `node node_modules/gatsby/bin/gatsby.js develop` since `gatsby` alone still not apparently on the PATH
+finally can `npm run start`, or else `node node_modules/gatsby/bin/gatsby.js develop` since `gatsby` alone still not apparently on the PATH
 
 then to build, test and deploy:
-`node node_modules/gatsby/bin/gatsby.js build`
+`npm run build`
 `node node_modules/gatsby/bin/gatsby.js serve-build`
 `npm run deploy`
