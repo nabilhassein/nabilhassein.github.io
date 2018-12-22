@@ -5,7 +5,8 @@ path: /about
 My name is Nabil Hassein and I am a technologist, educator, and organizer.
 I have worked professionally for some years as a programmer and a teacher;
 have participated in grassroots abolitionist campaigns against prisons and police, including as a member of No New Jails NYC, Millions March NYC, and Survived and Punished NY;
-and have done some other things too, like being an organizer from 2016 to 2018 of [!!Con](http://bangbangcon.com), a popular conference about the joy, excitement, and surprise of computing.
+and have done some other things too, like co-organizing the [Code Ecologies](http://sfpc.io/codeecologies) open forum on the environmental impact of computation at the School for Poetic Computation,
+and was an organizer from 2016 to 2018 of [!!Con](http://bangbangcon.com), a popular conference about the joy, excitement, and surprise of computing.
 
 For now, this website primarily documents paid work and independent projects I do broadly in the realm of technology, and omits (for example) interviews I have given about the unpaid anti-carceral organizing work that I also engage in, alongside many other activists and community members.
 I've made some progress on my longstanding goal to bring together my disparate activities, so perhaps whenever I get around to rebuilding this website as a public subset of my private notes, that may change.
