@@ -7,6 +7,11 @@ I've done enough work on these projects to be willing to post them live online, 
 
 If you're interested, you can follow my progress on my not-yet-published projects on [my github](https://github.com/nabilhassein/).
 
+# brainfuck-visualizer
+[Live here](https://brainf--k-visualizer.glitch.me/)  
+[Code here](https://glitch.com/edit/#!/brainf--k-visualizer)  
+This project was a collaboration with [Sean Catangui](https://catangui.com/), and has roots in [another brainfuck interpreter](https://github.com/nabilhassein/yahbfs) I wrote years ago and always intended to write a visual debugger for, only to finally get around to it five years later.
+
 # generative-DOOM
 [Live here](https://nabilhassein.github.io/generative-DOOM)  
 [Code here](https://github.com/nabilhassein/generative-DOOM)  
