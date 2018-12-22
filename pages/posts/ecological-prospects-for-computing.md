@@ -4,13 +4,13 @@ date: "2018-12-22"
 layout: post
 path: "/blog/ecological-prospects-for-computing/"
 ---
-*This piece was originally published in [The Recompiler](https://recompilermag.com/). Currently in print; official online URL for non-subscribers forthcoming.*
+*This piece was originally written in the first quarter of 2018, and published in issue #10 of [The Recompiler](https://recompilermag.com/), in print as of November 2018. Official URL for non-subscribers forthcoming.*
 
 ## Introduction
 
 Reports now estimate that Bitcoin uses [over 65 terawatt hours](https://digiconomist.net/bitcoin-energy-consumption) of electricity per year, over 0.3% of total [global electricity](https://powercompare.co.uk/bitcoin/), with the first peer-reviewed [study](https://www.cell.com/joule/fulltext/S2542-4351(18)30177-6) projecting its usage to reach 0.5% by the end of 2018. My first thought is: *how could you use so much energy to do so little?*
 
-Bitcoin is at its core a system for decentralized and verifiable updating of transactions and balances on a globally shared ledger, with various enhancements to the core protocol such as smart contracts. I do not deny that pseudonymous electronic cash without the need for central banks benefits some people, but as an anti-racist and anti-imperialist socialist, I will not accept that the satisfaction of these desires deserves more electricity than Nigeria (population 186 million) (NOTE: https://powercompare.co.uk/bitcoin/).
+Bitcoin is at its core a system for decentralized and verifiable updating of transactions and balances on a globally shared ledger, with various enhancements to the core protocol such as smart contracts. I do not deny that pseudonymous electronic cash without the need for central banks benefits some people, but as an anti-racist and anti-imperialist socialist, I will not accept that the satisfaction of these desires deserves [more electricity than Nigeria](https://powercompare.co.uk/bitcoin/) (population 186 million).
 
 This is just one of a countless number of examples of the grossly unjust allocation of all types of resources under capitalism. Consider that there are six times as many [empty homes](https://www.mintpressnews.com/empty-homes-outnumber-the-homeless-6-to-1-so-why-not-give-them-homes/207194/) in the United States as there are homeless people, or that at least 20% of food is [wasted](https://www.scientificamerican.com/article/the-first-comprehensive-look-at-global-food-waste-is-as-bad-as-you-d-expect/) worldwide while close to a billion people [go hungry](http://www.who.int/mediacentre/news/releases/2017/world-hunger-report/en/), according to United Nations statistics.
 
@@ -86,7 +86,9 @@ Prospects for computing, ecological or otherwise, are inseparable from prospects
 
 Frantz Fanon said: "Each generation must, out of relative obscurity, discover its mission, fulfill it, or betray it." In contemplating what is that mission today, I perceive clear parallels between the position of relatively privileged tech workers and the petty bourgeoisie in post-colonial nations, as described by revolutionary leaders such as Amílcar Cabral in his address “[The Weapon of Theory](https://www.marxists.org/subject/africa/cabral/1966/weapon-theory.htm)” to the 1966 Tricontinental Conference of revolutionaries from Africa, Asia and Latin America. In this speech, Cabral discusses the vital necessity for anti-colonial movements to include an analysis of imperialism, nationality and class in order to attain true liberation:
 
-In order not to betray these objectives [of national liberation] the petty bourgeoisie has only one choice: to strengthen its revolutionary consciousness, to reject the temptations of becoming more bourgeois and the natural concerns of its class mentality, to identify itself with the working classes and not to oppose the normal development of the process of revolution. This means that in order to truly fulfill the role in the national liberation struggle, the revolutionary petty bourgeoisie must be capable of committing suicide as a class (NOTE:  Cabral's use of this phrase is intended metaphorically rather than literally, in line with similar usages from the same era such as that of Huey Newton of the Black Panthers, whose autobiography was titled "Revolutionary Suicide". Today I would prefer a term such as class betrayal over class suicide.) in order to be reborn as revolutionary workers, completely identified with the deepest aspirations of the people to which they belong.
+> In order not to betray these objectives [of national liberation] the petty bourgeoisie has only one choice: to strengthen its revolutionary consciousness, to reject the temptations of becoming more bourgeois and the natural concerns of its class mentality, to identify itself with the working classes and not to oppose the normal development of the process of revolution. This means that in order to truly fulfill the role in the national liberation struggle, the revolutionary petty bourgeoisie must be capable of committing suicide as a class in order to be reborn as revolutionary workers, completely identified with the deepest aspirations of the people to which they belong.
+
+*(NOTE: Cabral's use of this phrase is intended metaphorically rather than literally, in line with similar usages from the same era such as that of Huey Newton of the Black Panthers, whose autobiography was titled "Revolutionary Suicide". Today I would prefer a term such as class betrayal over class suicide.)*
 
 This path to liberation is diametrically opposed to the path of "diversity" and assimilation into oppressive structures paved by Black faces for white supremacy such as Barack Obama. Every oppressed group contains numerous such heroes and [misleaders](https://www.blackagendareport.com/indecency-black-misleadership-class) (or “compradors”) alike.
 
@@ -122,6 +124,4 @@ There are immense difficulties to be faced in the course of these attempts to wi
 
 A basic aspect of this responsibility is to ensure that they inherit an Earth fit for their habitation. This can only mean organizing for the seizure of the productive forces and wealth currently monopolized and misused by a selfish few, in every field of endeavor including computing, and the redirection of these social resources towards the development of the potentialities of the many and the healing of our mother Earth. These are no simple tasks. Nevertheless, in the words of Assata Shakur, it is our duty to fight and our duty to win.
 
-> "If you dare to struggle, you dare to win. If you dare not to struggle then god damn it, you don't deserve to win. Let me say peace to you, if you're willing to fight for it."
-
-*Fred Hampton*
+> "If you dare to struggle, you dare to win. If you dare not to struggle then god damn it, you don't deserve to win. Let me say peace to you, if you're willing to fight for it." - *Fred Hampton*

@@ -5,7 +5,7 @@ layout: post
 path: "/blog/computing-climate-change-and-all-our-relationships/"
 ---
 
-On May 21st 2018, I delivered my first ever large conference talk: ["Computing, climate change, and all our relationships"](https://www.deconstructconf.com/2018/nabil-hassein-computing-climate-change-and-all-our-relationships) at Deconstructconf in Seattle. Here is the abstract of the talk, which is about 40 minutes long despite my attempts to keep it to 25 or 30:
+On May 21st 2018, I gave my first ever large conference talk: ["Computing, climate change, and all our relationships"](https://www.deconstructconf.com/2018/nabil-hassein-computing-climate-change-and-all-our-relationships) at Deconstructconf in Seattle. Although it ended up being both delivered in person and published online earlier, it is actually based on my prior research and work on my essay ["Ecological Prospects for Computing"](/blog/ecological-prospects-for-computing/). Here is the abstract of the talk, which is about 40 minutes long despite my attempts to keep it to 25 or 30:
 
 > Inequality in the distribution of computing resources, and the often oppressive character of computers, are embedded in a larger social context. A principal feature of capitalism today is climate change, a racist crisis with hugely disparate impacts on people with the least responsibility for the unfolding disaster.
 
