@@ -15,3 +15,4 @@ finally had to `node node_modules/gatsby/bin/gatsby.js develop` since `gatsby` a
 then to build, test and deploy:
 `node node_modules/gatsby/bin/gatsby.js build`
 `node node_modules/gatsby/bin/gatsby.js serve-build`
+`npm run deploy`

@@ -5,7 +5,6 @@ layout: post
 path: "/blog/on-predictive-policing/"
 ---
 
-## On Predictive Policing
 I gave this talk during the Recurse Center's Never Graduate Week on May 9th, 2017.
 
 This presentation is really more of a historical and political discussion of policing in general, although the name is not a complete lie.
