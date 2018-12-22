@@ -5,7 +5,7 @@ layout: post
 path: "/blog/against-black-inclusion-in-facial-recognition/"
 ---
 
-*This piece was originally published on [Decolonized Tech](https://decolonizedtech.com/2017/08/15/against-black-inclusion-in-facial-recognition/).*
+*This piece was originally published on [Digital Talking Drum](https://digitaltalkingdrum.com/2017/08/15/against-black-inclusion-in-facial-recognition/), formerly known as Decolonized Tech.*
 
 Researchers have documented the frequent inability of facial recognition software to detect Black faces due to programmers' use of unrepresentative data to train machine learning models.[^facial-recognition] This issue is not unique, but systemic; in a related example, automated passport photo validation has registered Asian people's open eyes as being closed.[^closed-eyes] Such technological biases have precedents in mediums older than software. For example, color photography was initially optimized for lighter skin tones at the expense of people with darker skin, a bias corrected mainly due to the efforts and funding of furniture manufacturers and chocolate sellers to render darker tones more easily visible in photographs -- the better to sell their products.[^color-photography] Groups such as the Algorithmic Justice League have made it their mission to "highlight algorithmic bias" and "develop practices for accountability during the design, development, and deployment of coded systems".[^algorithmic-justice-league] I support all of those goals abstractly, but at a concrete level, I question whose interests would truly be served by the deployment of automated systems capable of reliably identifying Black people.
 
