@@ -1,12 +1,11 @@
 ---
-title: Presentations
-path: /presentations
+title: "generative-DOOM: on generating rhymes and decolonizing software"
+date: "2017-05-09"
+layout: post
+path: "/blog/on-predictive-policing/"
 ---
-I'm trying to start doing better a job of documenting tech-related things I do.  
-One aspect I've been really bad about is posting slides online after I've given a talk.  
-This is a start!
 
-## [On Predictive Policing](https://nabilhassein.github.io/slides/policing-rc-talk)
+## On Predictive Policing
 I gave this talk during the Recurse Center's Never Graduate Week on May 9th, 2017.
 
 This presentation is really more of a historical and political discussion of policing in general, although the name is not a complete lie.
