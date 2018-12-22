@@ -58,6 +58,16 @@ module.exports = React.createClass({
             </Link>
             <span> | </span>
             <Link
+              to={prefixLink('/resume.pdf')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              Resume
+            </Link>
+            <span> | </span>
+            <Link
               to={prefixLink('/about')}
               style={{
                 color: 'black',
