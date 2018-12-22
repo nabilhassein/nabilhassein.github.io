@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+ <html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0"/><title>nabilhassein.github.io | A few notes on Idris</title><link rel="shortcut icon"/><style id="typography.js">      /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}      html {        box-sizing:border-box;        font-size:112.5%;        line-height:27px;        overflow-y:scroll;      }      *, *:before, *:after {        box-sizing:inherit;      }      body {        color:hsl(0,0%,20%);        font-family:georgia, serif;        font-weight:300;        word-wrap:break-word;      }      /* Make image responsive by default */      img {        max-width:100%;      }    h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dl,dd,p,figure,pre,table,fieldset,blockquote,form,noscript,iframe,img,hr{margin:0;      margin-bottom:1.5rem;      padding:0;}blockquote{margin:1.5rem 3.75rem;}b,strong{font-weight:600}hr{background:hsl(0,0%,80%);      border:none;      height:1px;      margin-bottom:calc(1.5rem - 1px);}ol,ul{list-style-position:outside;      margin-left:1.5rem;}ul li,ol li{padding-left:0;}code,kbd,pre,samp{font-size:0.85rem;      line-height:1.5rem;}table{font-size:1rem;      line-height:2.25rem;      width:100%;}thead{text-align:left;}h1,h2,h3,h4,h5,h6{color:hsl(0,0%,20%);      font-family:"Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;      font-weight:600;}h1{font-size:1.2rem;        line-height:1.5rem;}h2{font-size:1.14653rem;        line-height:1.5rem;}h3{font-size:1.09545rem;        line-height:1.5rem;}h4{font-size:1.04664rem;        line-height:1.5rem;}h5{font-size:1rem;        line-height:1.5rem;}h6{font-size:0.95544rem;        line-height:1.5rem;}             </style><style>.warning{color:#9f6000;background-color:#feefb3;padding:18px}.warning:before{content:"\26A0";margin-right:9px}.markdown pre{display:block;background:#3f3f3f;color:#dcdcdc;overflow-y:hidden}.markdown pre code{background:none;border:none;border-radius:3px;display:inline-block;overflow:inherit;padding:1.58333rem;white-space:inherit;word-wrap:normal}code{border-radius:3px;white-space:pre;white-space:pre-wrap;white-space:pre-line;white-space:-pre-wrap;white-space:-o-pre-wrap;white-space:-moz-pre-wrap;white-space:-hp-pre-wrap;word-wrap:break-word;background:#e5e5e5;border:1px solid #ccc;display:inline;font-family:Inconsolata,monospace,serif;max-width:100%;overflow:auto;padding:0 .1625rem}.clojure .hljs-attribute,.css .hljs-class,.css .hljs-id,.hljs-keyword,.hljs-request,.hljs-status,.hljs-tag,.lisp .hljs-title,.nginx .hljs-title{color:#e3ceab}.django .hljs-filter .hljs-argument,.django .hljs-template_tag,.django .hljs-variable{color:#dcdcdc}.hljs-date,.hljs-number{color:#8cd0d3}.apache .hljs-sqbracket,.dos .hljs-envvar,.dos .hljs-stream,.hljs-variable{color:#efdcbc}.diff .hljs-change,.dos .hljs-flow,.hljs-literal,.python .exception,.python .hljs-built_in,.tex .hljs-special{color:#efefaf}.diff .hljs-chunk,.hljs-subst{color:#8f8f8f}.apache .hljs-tag,.diff .hljs-header,.dos .hljs-keyword,.haskell .hljs-type,.hljs-prompt,.hljs-title,.nginx .hljs-built_in,.python .hljs-decorator,.ruby .hljs-class .hljs-parent,.tex .hljs-command{color:#efef8f}.dos .hljs-winutils,.ruby .hljs-string,.ruby .hljs-symbol,.ruby .hljs-symbol .hljs-string{color:#dca3a3}.apache .hljs-cbracket,.coffeescript .hljs-attribute,.css .hljs-rules .hljs-value,.diff .hljs-deletion,.hljs-attr_selector,.hljs-built_in,.hljs-javadoc,.hljs-pragma,.hljs-preprocessor,.hljs-pseudo,.hljs-string,.hljs-tag .hljs-value,.smalltalk .hljs-array,.smalltalk .hljs-class,.smalltalk .hljs-localvars,.sql .hljs-aggregate,.tex .hljs-formula{color:#cc9393}.diff .hljs-addition,.hljs-comment,.hljs-doctype,.hljs-pi,.hljs-shebang,.hljs-template_comment,.java .hljs-annotation{color:#7f9f7f}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .css,.xml .hljs-cdata,.xml .javascript,.xml .vbscript{opacity:.5}</style></head><body><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="2015784035"><div style="margin-bottom:1.5rem;" class="headroom-wrapper" data-reactid="2"><div style="position:relative;top:0;left:0;right:0;z-index:1;-webkit-transform:translate3D(0, 0, 0);-ms-transform:translate3D(0, 0, 0);transform:translate3D(0, 0, 0);background:lightgray;" class="headroom headroom--unfixed" data-reactid="3"><div style="max-width:960px;margin-left:auto;margin-right:auto;padding-top:0;padding:1.5rem 0.75rem;" data-reactid="4"><a style="color:black;text-decoration:none;" href="/" data-reactid="5">nabilhassein.github.io</a><span style="display:block;clear:both;" data-reactid="6"> </span></div><div style="max-width:960px;margin-left:auto;margin-right:auto;padding-top:0;padding:1.5rem 0.75rem;" data-reactid="7"><a style="color:black;text-decoration:none;" href="/about" data-reactid="8">About</a><span data-reactid="9"> | </span><a style="color:black;text-decoration:none;" href="/projects" data-reactid="10">Projects</a><span data-reactid="11"> | </span><a style="color:black;text-decoration:none;" href="/resume.pdf" data-reactid="12">Resume</a><span data-reactid="13"> | </span><a style="color:black;text-decoration:none;" href="/contact" data-reactid="14">Contact</a><span style="display:block;clear:both;" data-reactid="15"> </span></div></div></div><div style="max-width:960px;margin-left:auto;margin-right:auto;padding:1.5rem 0.75rem;padding-top:0;" data-reactid="16"><div class="markdown" data-reactid="17"><h1 data-reactid="18">A few notes on Idris</h1><div data-reactid="19"><h1>Introduction</h1>
+<p>I’m a longtime type theory, functional programming and programming language nerd.
+Haskell was far from the first language I studied but it was the first language I loved,
+the first language where I felt a coherent structure give me some confidence that anything I was doing made any sense.
+During my current batch at the <a href="https://recurse.com">Recurse Center</a>,
+one way I’ve continued these studies is by learning to program in <a href="http://www.idris-lang.org/">Idris</a>,
+mostly through exercises from <a href="https://www.manning.com/books/type-driven-development-with-idris">a forthcoming book by Edwin Brady, the creator of the language</a>.
+This book especially emphasizes interactive development. I can’t recommend it enough!</p>
+<p>As concisely as I can: Idris a programming language much like Haskell with <strong>dependent types</strong>,
+so-called because <em>types may depend on values</em>.
+There are <strong>no</strong> restrictions on which values may appear in types,
+and <em>types are first-class values</em> that can be passed to functions as arguments
+and calculated as the return value of functions, like any other value.
+This allows the programmers to maintain all kinds of interesting invariants within the type system – <strong>any</strong> computable property.
+However, you might incur an annoying proof obligation to convince the compiler that your code is actually correct.
+I currently lack a good intuition for theorem proving in Idris –
+sometimes the compiler seems able to see all kinds of deep facts I might never have guessed;
+other times, the compiler seems quite astoundingly unable to figure out that <code>n + 1</code> = <code>1 + n</code>, and I have to help it.
+This feels painful.</p>
+<p>I’m working on a much longer article on these topics,
+hopefully to be published in <a href="https://codewords.recurse.com">Code Words</a>,
+but I didn’t want to wait to share a few brief code snippets.
+I post this code with minimal explanation, hoping others might sense as I do
+the power and expressiveness of Idris without extensive commentary.
+I can easily tell it’s worth a far deeper study – so far I’ve hardly scratched the surface of dependently typed programming.
+Let me know your impressions too.</p>
+<p>Stay tuned for my forthcoming article for a far more detailed tutorial, once I have a deeper knowledge myself!
+Unlike this blog post, that article particularly targets people with zero preexisting knowledge of typed functional programming.
+If you’re impatient to wait 2 or 3 months, in the conclusion I recommend some existing tutorials and papers about Idris.</p>
+<h1>Elementary dependent types</h1>
+<h2>Preliminary: natural numbers</h2>
+<p>A natural number is zero or it is the successor of a natural number.</p>
+<p><code>data Nat = Z | S Nat</code></p>
+<p>This makes no use of dependent types.</p>
+<p>Somehow, we can also write these with integer literals:<br>
+<code>0</code> -&gt; <code>Z</code><br>
+<code>1</code> -&gt; <code>S Z</code><br>
+<code>2</code> -&gt; <code>S (S Z)</code><br>
+…etc.</p>
+<h2>Vectors</h2>
+<p>This is the traditional first example of a family of dependent types. I carry on this tradition.</p>
+<p>A <code>Vect</code> is a list which carries its length around in its type, and contains elements all of the same type.</p>
+<pre><code>data Vect :<span class="hljs-built_in"> Nat </span>-&gt;<span class="hljs-built_in"> Type </span>-&gt;<span class="hljs-built_in"> Type </span>where
+  <span class="hljs-literal">Nil</span> : Vect 0 a
+  (::) : a -&gt; Vect n a -&gt; Vect (S n) a
+</code></pre>
+<p>Somehow, we can write these like</p>
+<pre><code>xs : Vect <span class="hljs-number">1</span> String
+xs = [<span class="hljs-string">"foo"</span>]
+
+ys : Vect <span class="hljs-number">3</span> Int -- <span class="hljs-keyword">or</span> Vect <span class="hljs-number">3</span> Nat, <span class="hljs-keyword">or</span> Vect <span class="hljs-number">3</span> Double, <span class="hljs-keyword">or</span>...
+ys = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>]
+
+zs : Vect <span class="hljs-number">0</span> a
+zs = []
+</code></pre>
+<p>Note that in Idris, type inference is undecidable in general. All types must be annotated explicitly in source code.
+A limited form of type inference is possible in practice using Idris’s interactive tools, however.</p>
+<p>Functions on vectors that you can find in the Idris standard library maintain the invariants you might expect, e.g. <code>append</code>:</p>
+<pre><code>append : Vect n <span class="hljs-selector-tag">a</span> -&gt; Vect m <span class="hljs-selector-tag">a</span> -&gt; Vect (n + m) <span class="hljs-selector-tag">a</span>
+append []        ys = ys
+append (x :: xs) ys = x :: append xs ys
+</code></pre>
+<p>Since there are no restrictions on which values may appear in types,
+the typechecker must perform many computations at compile-time, such as addition in this simple example.</p>
+<h2>Bounded numbers</h2>
+<p>We wouldn’t want to index into a vector of length <code>n</code> with a type like <code>Int</code> or <code>Nat</code> –
+we already know how long the vector is, so let’s actually use that fact in our program!</p>
+<p>We can define the type <code>Fin n</code> to represent the set of natural numbers smaller than <code>n</code>.</p>
+<pre><code>data Fin :<span class="hljs-built_in"> Nat </span>-&gt;<span class="hljs-built_in"> Type
+</span>  FZ : Fin (S k)
+  FS : Fin k -&gt; Fin (S k)
+</code></pre>
+<p>Then we can use it to define a type-safe indexing operation into a vector,
+where only values less than the length of the (zero-indexed) vector are allowed as indices:</p>
+<pre><code><span class="hljs-meta">index</span> : Fin n -&gt; Vect n a -&gt; a
+<span class="hljs-meta">index</span> FZ     (<span class="hljs-meta">x</span> :: xs) = <span class="hljs-meta">x</span>
+<span class="hljs-meta">index</span> (FS k) (<span class="hljs-meta">x</span> :: xs) = <span class="hljs-meta">index</span> k xs
+</code></pre>
+<p>No need for <code>Maybe</code> when indexing into a vector because we’re guaranteed a result.
+Note that the type <code>Fin Z</code> is empty – it’s impossible to construct a natural number less than zero,
+so the impossibility of indexing into an empty vector falls out of this construction very naturally.
+Hence why our case analysis in <code>index</code> was complete without accounting for any empty vector cases.</p>
+<h2>Matrices</h2>
+<p>There is no need for a special type synonym syntax in Idris.
+I am greatly pleased by how <em>few</em> features the language has – clean, orthogonal, powerful.
+We can define matrices as vectors as vectors of <code>Double</code>s as follows:</p>
+<pre><code>Matrix :<span class="hljs-built_in"> Nat </span>-&gt;<span class="hljs-built_in"> Nat </span>-&gt;<span class="hljs-built_in"> Type
+</span>Matrix n m = Vect n (Vect m Double)
+</code></pre>
+<p>You can <a href="https://github.com/nabilhassein/idris-meap/blob/master/ch3.idr#L31">peek at my implementation here if you’re interested</a>,
+along with other spoilers to exercises in Edwin Brady’s aforementioned book,
+but here I just want to share the type signature of matrix multiplication:</p>
+<p><code>mul_matrix : Matrix n m -&gt; Matrix m p -&gt; Matrix n p</code></p>
+<p>This is one of the most natural ways to express the row/column invariants respected by matrix multiplication I’ve seen in code.
+Matrices of mismatched sizes simply won’t typecheck as arguments to the function.</p>
+<h1>printf</h1>
+<p>Without speaking for others, I tend to consider my own use of code generation techniques such as macros
+a clear indication that the language I’m working in lacks the required “power” or “expressiveness” (whatever those words mean)
+to directly express the ideas I have about solving the problem I have.</p>
+<p>That’s a drag. Maybe I should have been using some other language. But by the time I think this, it’s probably too late.</p>
+<p>In many programming languages, the venerable <code>printf</code> function is implemented with one or another of these techniques.
+In Idris, we simply calculate the type of the remaining arguments by examining the value of the format string.
+For the first time in this blogpost, we frequently give names to earlier values in our type signatures,
+so that later types can depend on them.</p>
+<pre><code>data Format = Number | Str | Lit String
+
+PrintfType : List Format -&gt; Type
+PrintfType = foldr (\fmt, t =&gt; <span class="hljs-keyword">case</span> fmt <span class="hljs-keyword">of</span>
+  Number =&gt; Int -&gt; t
+  Str    =&gt; String -&gt; t
+  Lit _  =&gt; t
+) String
+
+printfFmts : (fmts : List Format) -&gt; String -&gt; PrintfType fmts
+printfFmts []                acc = acc
+printfFmts (Number :: fmts)  acc = \i =&gt; printfFmts fmts (acc ++ show i)
+printfFmts (Str :: fmts)     acc = \s =&gt; printfFmts fmts (acc ++ s)
+printfFmts (Lit s :: fmts)   acc = printfFmts fmts (acc ++ s)
+
+toFormat : List Char -&gt; List Format
+toFormat []                    = []
+toFormat (<span class="hljs-string">'%'</span> :: <span class="hljs-string">'d'</span> :: chars) = Number  :: toFormat chars
+toFormat (<span class="hljs-string">'%'</span> :: <span class="hljs-string">'s'</span> :: chars) = Str     :: toFormat chars
+toFormat (<span class="hljs-string">'%'</span> :: chars)        = Lit <span class="hljs-string">"%"</span> :: toFormat chars
+toFormat (c :: chars)          = <span class="hljs-keyword">case</span> toFormat chars <span class="hljs-keyword">of</span>
+  Lit lit :: fmts =&gt; Lit (strCons c lit) :: fmts
+  fmts            =&gt; Lit (strCons c <span class="hljs-string">""</span> ) :: fmts
+
+printf : (fmt : String) -&gt; (PrintfType . Main.toFormat . Prelude.Strings.unpack) fmt
+printf _ = printfFmts _ <span class="hljs-string">""</span>
+</code></pre>
+<p>The type of <code>printf</code> is so specific we don’t even have to explicitly give the first argument in the body!
+Nice.</p>
+<h1>Effectful programming</h1>
+<p>This is an example of maintaining correctness invariants for an external resource, a file handle, using <strong>dependent effects</strong>.
+I lifted it straight from <a href="http://docs.idris-lang.org/en/latest/effects/depeff.html#file-management">the official Idris effects tutorial</a>.</p>
+<p>We can model all kinds of “impure” or external resources including state, exceptions, randomness, and input/output
+using <strong>algebraic effects</strong>, which collect the effects available to the program in a list or some other value.
+<a href="https://eb.host.cs.st-andrews.ac.uk/drafts/effects.pdf">Here’s a paper for reference.</a>
+<a href="https://eb.host.cs.st-andrews.ac.uk/drafts/dep-eff.pdf">Here’s another reference.</a></p>
+<p>We can combine dependent types and algebraic effects:
+the effects available to our program may depend on the result of earlier actions.
+So if we attempt to open a file handle and succeed, we have the effect available and can read from the file;
+if we fail, then we don’t have the proper effect available and it will be a type error to try reading from the file anyway.
+(For example, in the <code>False</code> arm of the case analysis within <code>dumpFile</code> below.)</p>
+<p>The longer article I’m working on is designed to <strong>slowly</strong> build up to a similar example,
+including for programmers completely unfamiliar with functional programming or any expressive static type system.
+Without that context, if you think these snippets read like beautiful nonsense,
+even as a Haskell programmer that’s how I felt when I began studying dependent types too!</p>
+<p>Don’t mind the lack of implementation for <code>open</code>, just study its type,
+and then convince yourself you can see how you’d use it to build <code>readFile</code> and <code>dumpFile</code>
+with the given type signatures and implementations.</p>
+<p>The first list of effects is <code>open</code>'s list of effects available on entry;
+the second are those available on exit.
+That will depend on if we managed to open the file or not!</p>
+<p>For <code>readFile</code> and <code>dumpFile</code>, the fact that they have only one list of effects in the type
+means they are guaranteed to have the same effects available on entry as on exit.</p>
+<p>Finally, think of <code>!</code> as a prefix function with the type <code>c a -&gt; a</code>
+within some kind of context c like <code>IO</code>.
+It allows us to avoid the verbosity of naming things we only use once in some kind of <code>do</code>-notation context.</p>
+<pre><code><span class="hljs-keyword">open</span> : (fname : String)
+       -&gt; (m : Mode)
+       -&gt; Eff <span class="hljs-type">Bool</span> [FILE_IO ()]
+                   (\res =&gt; [FILE_IO (<span class="hljs-keyword">case</span> res <span class="hljs-keyword">of</span>
+                                           <span class="hljs-keyword">True</span> =&gt; OpenFile m
+                                           <span class="hljs-keyword">False</span> =&gt; ())])
+
+readFile : Eff (List String) [FILE_IO (OpenFile <span class="hljs-keyword">Read</span>)]
+readFile = readAcc [] <span class="hljs-keyword">where</span>
+    readAcc : List String -&gt; Eff (List String) [FILE_IO (OpenFile <span class="hljs-keyword">Read</span>)]
+    readAcc acc = <span class="hljs-keyword">if</span> (<span class="hljs-keyword">not</span> !eof)
+                     <span class="hljs-keyword">then</span> readAcc (!readLine :: acc)
+                     <span class="hljs-keyword">else</span> pure (<span class="hljs-keyword">reverse</span> acc)
+
+dumpFile : String -&gt; Eff () [FILE_IO (), STDIO]
+dumpFile <span class="hljs-type">name</span> = <span class="hljs-keyword">case</span> !(<span class="hljs-keyword">open</span> <span class="hljs-type">name</span> <span class="hljs-keyword">Read</span>) <span class="hljs-keyword">of</span>
+                    <span class="hljs-keyword">True</span> =&gt; <span class="hljs-keyword">do</span> putStrLn (<span class="hljs-keyword">show</span> !readFile)
+                               <span class="hljs-keyword">close</span>
+                    <span class="hljs-keyword">False</span> =&gt; putStrLn ("Error!")
+</code></pre>
+<h1>Conclusion</h1>
+<p>I hope these notes have piqued your interest to learn more about programming with dependent types,
+despite my leaving unsaid so very much more than what I do say.
+Again, I’m writing a longer article myself, but for now I once again recommend
+<a href="https://www.manning.com/books/type-driven-development-with-idris">a book by Idris’s primary author</a>.
+I’ve been finding it especially enlightening in its many discussions of how to use Idris’s interactive features for development.
+I also took away a great deal from the following tutorials and interesting papers about more advanced applications, among others:</p>
+<ul>
+<li><a href="http://docs.idris-lang.org/en/latest/tutorial/">The official tutorial</a></li>
+<li><a href="http://docs.idris-lang.org/en/latest/tutorial/">The effects tutorial</a></li>
+<li><a href="https://www.itu.dk/people/drc/pubs/dependent-type-providers.pdf">Type providers</a></li>
+<li><a href="https://eb.host.cs.st-andrews.ac.uk/drafts/dsl-idris.pdf">Resource-safe systems programming with embedded DSLs</a></li>
+</ul>
+<p>If this blog post interested you, <a href="/contact">get in touch</a> about dependent types anytime!</p>
+</div></div><span style="display:block;clear:both;" data-reactid="20"> </span></div></div></div><script src="/bundle.js?t=1545514519197"></script></body></html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+ <html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0"/><title>nabilhassein.github.io | Visualizing NYC criminal court summonses</title><link rel="shortcut icon"/><style id="typography.js">      /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}      html {        box-sizing:border-box;        font-size:112.5%;        line-height:27px;        overflow-y:scroll;      }      *, *:before, *:after {        box-sizing:inherit;      }      body {        color:hsl(0,0%,20%);        font-family:georgia, serif;        font-weight:300;        word-wrap:break-word;      }      /* Make image responsive by default */      img {        max-width:100%;      }    h1,h2,h3,h4,h5,h6,hgroup,ul,ol,dl,dd,p,figure,pre,table,fieldset,blockquote,form,noscript,iframe,img,hr{margin:0;      margin-bottom:1.5rem;      padding:0;}blockquote{margin:1.5rem 3.75rem;}b,strong{font-weight:600}hr{background:hsl(0,0%,80%);      border:none;      height:1px;      margin-bottom:calc(1.5rem - 1px);}ol,ul{list-style-position:outside;      margin-left:1.5rem;}ul li,ol li{padding-left:0;}code,kbd,pre,samp{font-size:0.85rem;      line-height:1.5rem;}table{font-size:1rem;      line-height:2.25rem;      width:100%;}thead{text-align:left;}h1,h2,h3,h4,h5,h6{color:hsl(0,0%,20%);      font-family:"Avenir Next", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;      font-weight:600;}h1{font-size:1.2rem;        line-height:1.5rem;}h2{font-size:1.14653rem;        line-height:1.5rem;}h3{font-size:1.09545rem;        line-height:1.5rem;}h4{font-size:1.04664rem;        line-height:1.5rem;}h5{font-size:1rem;        line-height:1.5rem;}h6{font-size:0.95544rem;        line-height:1.5rem;}             </style><style>.warning{color:#9f6000;background-color:#feefb3;padding:18px}.warning:before{content:"\26A0";margin-right:9px}.markdown pre{display:block;background:#3f3f3f;color:#dcdcdc;overflow-y:hidden}.markdown pre code{background:none;border:none;border-radius:3px;display:inline-block;overflow:inherit;padding:1.58333rem;white-space:inherit;word-wrap:normal}code{border-radius:3px;white-space:pre;white-space:pre-wrap;white-space:pre-line;white-space:-pre-wrap;white-space:-o-pre-wrap;white-space:-moz-pre-wrap;white-space:-hp-pre-wrap;word-wrap:break-word;background:#e5e5e5;border:1px solid #ccc;display:inline;font-family:Inconsolata,monospace,serif;max-width:100%;overflow:auto;padding:0 .1625rem}.clojure .hljs-attribute,.css .hljs-class,.css .hljs-id,.hljs-keyword,.hljs-request,.hljs-status,.hljs-tag,.lisp .hljs-title,.nginx .hljs-title{color:#e3ceab}.django .hljs-filter .hljs-argument,.django .hljs-template_tag,.django .hljs-variable{color:#dcdcdc}.hljs-date,.hljs-number{color:#8cd0d3}.apache .hljs-sqbracket,.dos .hljs-envvar,.dos .hljs-stream,.hljs-variable{color:#efdcbc}.diff .hljs-change,.dos .hljs-flow,.hljs-literal,.python .exception,.python .hljs-built_in,.tex .hljs-special{color:#efefaf}.diff .hljs-chunk,.hljs-subst{color:#8f8f8f}.apache .hljs-tag,.diff .hljs-header,.dos .hljs-keyword,.haskell .hljs-type,.hljs-prompt,.hljs-title,.nginx .hljs-built_in,.python .hljs-decorator,.ruby .hljs-class .hljs-parent,.tex .hljs-command{color:#efef8f}.dos .hljs-winutils,.ruby .hljs-string,.ruby .hljs-symbol,.ruby .hljs-symbol .hljs-string{color:#dca3a3}.apache .hljs-cbracket,.coffeescript .hljs-attribute,.css .hljs-rules .hljs-value,.diff .hljs-deletion,.hljs-attr_selector,.hljs-built_in,.hljs-javadoc,.hljs-pragma,.hljs-preprocessor,.hljs-pseudo,.hljs-string,.hljs-tag .hljs-value,.smalltalk .hljs-array,.smalltalk .hljs-class,.smalltalk .hljs-localvars,.sql .hljs-aggregate,.tex .hljs-formula{color:#cc9393}.diff .hljs-addition,.hljs-comment,.hljs-doctype,.hljs-pi,.hljs-shebang,.hljs-template_comment,.java .hljs-annotation{color:#7f9f7f}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .css,.xml .hljs-cdata,.xml .javascript,.xml .vbscript{opacity:.5}</style></head><body><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="-934393548"><div style="margin-bottom:1.5rem;" class="headroom-wrapper" data-reactid="2"><div style="position:relative;top:0;left:0;right:0;z-index:1;-webkit-transform:translate3D(0, 0, 0);-ms-transform:translate3D(0, 0, 0);transform:translate3D(0, 0, 0);background:lightgray;" class="headroom headroom--unfixed" data-reactid="3"><div style="max-width:960px;margin-left:auto;margin-right:auto;padding-top:0;padding:1.5rem 0.75rem;" data-reactid="4"><a style="color:black;text-decoration:none;" href="/" data-reactid="5">nabilhassein.github.io</a><span style="display:block;clear:both;" data-reactid="6"> </span></div><div style="max-width:960px;margin-left:auto;margin-right:auto;padding-top:0;padding:1.5rem 0.75rem;" data-reactid="7"><a style="color:black;text-decoration:none;" href="/about" data-reactid="8">About</a><span data-reactid="9"> | </span><a style="color:black;text-decoration:none;" href="/projects" data-reactid="10">Projects</a><span data-reactid="11"> | </span><a style="color:black;text-decoration:none;" href="/resume.pdf" data-reactid="12">Resume</a><span data-reactid="13"> | </span><a style="color:black;text-decoration:none;" href="/contact" data-reactid="14">Contact</a><span style="display:block;clear:both;" data-reactid="15"> </span></div></div></div><div style="max-width:960px;margin-left:auto;margin-right:auto;padding:1.5rem 0.75rem;padding-top:0;" data-reactid="16"><div class="markdown" data-reactid="17"><h1 data-reactid="18">Visualizing NYC criminal court summonses</h1><div data-reactid="19"><h1>Background: why this project?</h1>
+<p>You can <a href="https://nabilhassein.github.io/nyc-summons-precinct-visualization/">view the map this blog post documents live on the web</a>.</p>
+<p>I’ve been writing code since high school, but until recently,
+very little of my work has been the type of thing I can easily <em>show</em> to non-programmers.
+I’ve been wanting to change that, and I’ve also been wanting to bring my tech and political organizing work together more.</p>
+<p>So, a main focus of my current stint at the <a href="https://recurse.com">Recurse Center</a> has been learning modern frontend web development.
+An overlapping focus has been to learn about data cleaning, analysis and visualization.
+The first project I chose to do touching on all of these things was to build the map linked above,
+which visualizes how many criminal court summonses were issued for each violation in every police precinct of New York City.</p>
+<p>(A violation is illegal behavior which does not rise to the level of a crime, i.e. a misdemeanor or felony.
+A summons is a ticket the police can write you to require you to appear in court without arresting you.)</p>
+<p>On the tech side, this was a useful project for me to learn something about technologies including:
+<a href="http://pandas.pydata.org/">pandas</a>,
+<a href="https://d3js.org/">d3.js</a>,
+<a href="https://facebook.github.io/react/">React.js</a>,
+<a href="http://redux.js.org/">Redux</a>,
+<a href="https://www.npmjs.com/">npm</a>,
+<a href="https://babeljs.io/">babel</a>,
+and <a href="https://webpack.github.io/">webpack</a>.
+It was my first time using all of them – for those I’ve used again, the learning from this has meant faster going the next time!
+I spend most of my first month back at RC on this project,
+but I had a few other things going on around at the same time, so it was not a full month of actual work.</p>
+<p>On the political side, this was my first time digging around the <a href="https://nycopendata.socrata.com/">NYC open data website</a>,
+and the first time I used my tech skills to create an original product I hoped might be of interest to other activists.
+I gave this aspect of the project less emphasis than the tech aspect, which I hope not to replicate in the future,
+but I think others might take my ideas for interactive maps relevant to grassroots organizing more seriously
+now that I have some published work I can discuss.</p>
+<p>I have far more ambitious ideas about digging into police, prison and court data,
+but those will have to wait for another day.
+In this blog post I’ll limit myself to summarizing the work I did to create this map.
+I published it over two months ago so I’m a bit late documenting it, but better late than never!</p>
+<h1>Getting and transforming the data</h1>
+<p>This map uses just two, relatively small datasets:
+a geojson file (no different than plain json) describing the shape of the precincts,
+and a CSV which basically maps keys of <code>(precinct, violation)</code> pairs
+to values of how many summonses were issued in the given year.</p>
+<p>The geojson file I straightforwardly downloaded <a href="https://raw.githubusercontent.com/dwillis/nyc-maps/master/police_precincts.geojson">here</a>.</p>
+<p>The CSV I created from <a href="https://data.cityofnewyork.us/Public-Safety/Criminal-Court-Summonses/j8nm-zs7q">this spreadsheet</a>
+using python’s pandas library, throwing away incomplete 2015 data and some comments and aggregates which were of no interest,
+and adding some derived data useful to the creating the legend on the map.
+You can look at <a href="https://github.com/nabilhassein/nyc-summons-precinct-visualization/blob/master/src/clean.py">my script here</a> and
+<a href="https://github.com/nabilhassein/nyc-summons-precinct-visualization/blob/master/data/clean-summons-data.csv">the generated CSV here</a>.</p>
+<p>The script doesn’t work on the virtual machine I’m currently doing development work on, though,
+apparently due to differing versions of python libraries from the bare-metal Linux installation I was using at the time.
+I haven’t bothered to investigate since creating the CSV is a one-shot sort of deal and I’ve already done it.
+Anyway, this blog post is not about my many computer issues.</p>
+<p>There is no communication with any API or database backend –
+all data is transferred to the client when the user browses to the webpage.
+The map is hosted as a one-page static site on <a href="https://pages.github.com/">github pages</a>.</p>
+<h1>Building the map</h1>
+<p>Once I had the data, which took very little time even given my need to learn basic pandas, this was the fun part.
+I spent a lot of time reading d3 tutorials and examples, notably including
+<a href="https://bl.ocks.org/mbostock/4060606">this official example</a>,
+<a href="https://github.com/maptime-ams/animated-borders-d3js">this handy tutorial</a>,
+and <a href="https://nicolashery.com/integrating-d3js-visualizations-in-a-react-app/">this guide to using d3 with React</a>.</p>
+<p>Obeying discipline to keep my code modular was a primary focus throughout the project after the first week,
+which definitely slowed me down but I feel paid off in the end.
+I <strong>really</strong> do not like how essentially all frontend tutorials encourage you to
+just throw script tags into your HTML and pollute the global scope willy-nilly. I absolutely refuse to follow this approach.
+It might be the easiest way to get rolling, but in my experience, it does not take long at all before it comes back and bites me.
+Due to that experience, I was determined to use proper dependency management and build tools, namely npm and webpack,
+based on recommendations I got from other programmers I know and and from my reading online.</p>
+<p>Besides those project-wide concerns,
+React in specific encourages you to create your application as a nested hierarchy of modular, reusable components.
+It is a very pleasant approach, especially compared to what I found searching around
+the last time I checked out frontend development, which was in summer of 2013.
+(That investigation ended with me deciding to stay far away from the frontend, a decision I did not revisit until this project.)</p>
+<p>Sometimes though, it’s not obvious (at least not to a frontend newbie like myself)
+how to make React play nicely with libraries that assume they’ll be running the whole show.
+Even though d3 seems like a much better citizen in this regard than some other browser libraries I’ve used a bit,
+I’m not sure the particular way I glued React and D3 together is ideal.
+I might spend some more time reading about that, particularly with respect to the newly released
+<a href="https://github.com/d3/d3/releases/tag/v4.0.0">d3 4.0</a>.</p>
+<p>Anyway, probably my favorite aspect of creating this app is the natural decomposition of the UI into components:
+the autocomplete box, the legend, the map itself, and the slider each live in their own file.
+<a href="https://github.com/nabilhassein/nyc-summons-precinct-visualization/blob/master/src/components">Check it out!</a></p>
+<p>In particular, I loved how trivial it was <a href="https://github.com/nabilhassein/nyc-summons-precinct-visualization/blob/master/src/components/ViolationInput.js#L24">for me to plug in</a>
+the <a href="https://www.npmjs.com/package/react-autocomplete">react-autocomplete library</a> from npm.
+The pleasantness of this experience was one of the main reasons I chose to create this blog with
+<a href="https://github.com/gatsbyjs/gatsby">Gatsby.js</a>.
+More on that another day.</p>
+<p>Finally, a note on state management: all user state (of which is there isn’t much: basically year, violation and mouse position)
+is managed through Redux, which has relevance to the code I wrote to create my React components.
+Basically, any component can only update any state by dispatching an action to a global store containing <strong>all</strong> application state.
+A pure function updates the current state by invoking a user-defined function to combine it with the data from the new action.
+Then all React components are updated based on their new properties (<code>props</code>) reflecting the updated state.
+No reaching into the DOM yourself to update elements when you get new data!</p>
+<p>Redux works really, really nicely with React’s emphasis on one-way data flow down the nested hierarchy of components.
+It has a natural appeal to someone like myself with a background in functional programming,
+and a healthy fear of the bugs that carelessly handled state is bound to introduce into my applications.
+And it enables neat features like <a href="https://github.com/gaearon/redux-devtools">time-travel debugging</a>,
+since you can keep the log of all actions that resulted in updates to the state,
+though I didn’t need those for this simple project.</p>
+<h1>Possibilities for future work</h1>
+<p>There’s so much more I could do with this map, but I don’t know that I’ll ever do most of the things I list below
+because there’s also so much more I can do on other projects and there are just 24 hours in the day.</p>
+<p>Let me know if you have other ideas for more work,
+or for a totally different interactive map that would be useful to political organizing work!</p>
+<p>Anyway, the possibilities are listed below in my rough priority order.
+It’s amazing how much work can come out of a small project if you really want to do it right!
+I’m very glad I didn’t wait to make the map perfect before just getting it out there, though.</p>
+<h2>Link to this blog post from the map</h2>
+<p>This I should definitely do, since while the map is not very complex, it is not self-explanatory either.</p>
+<h2>Make the map responsive and mobile-friendly</h2>
+<p>Creating the map was a laptop-centric process, like all of my software development work,
+but I’ve more typically showed the map to others using my phone. That quickly showed me many things I overlooked.</p>
+<p>The slider to select the year of data is not easy to use from a phone in my experience.
+Deleting words from the autocomplete box acts just a little funky sometimes – I haven’t tracked down why yet.</p>
+<p>Also, resizing and refreshing the page behaves oddly, and there’s definitely wasted white space on the page.
+That especially hurts on mobile where you have so little screen space to work with in the first place.
+I’ll have to learn more about CSS to get the page looking just the way I want it to.</p>
+<h2>Normalize for the population of each precinct</h2>
+<p>This was <a href="https://twitter.com/georgejoseph94/status/740393252231188480">a suggestion from George Joseph</a>, a journalist at The Intercept.</p>
+<p>It <a href="http://johnkeefe.net/nyc-police-precinct-and-census-data">seems that this is the necessary data</a>.
+I haven’t dug into it yet, though.</p>
+<h2>Use more existing components and/or publish my own components</h2>
+<p>I’m sure there’s a react-slider component out there somewhere – I just haven’t looked yet.
+I’m still using the first slider I found when creating my
+<a href="https://github.com/nabilhassein/nyc-summons-precinct-visualization/blob/5eafaaaa4dbccfb4221df1ed438917e65f9f39e5/index.html">horrible initial version of the map</a>
+where all HTML, CSS and Javascript lived in one giant file, compared to the modular approach of the current code.</p>
+<p>It would be nice to check out the state not only of slider React components, but also of d3 map and legend React components,
+and either further reduce my code size by reusing suitable existing components as I did for the autocomplete box,
+or if such components aren’t out there yet,
+genericize and publish my own d3 legend map components to save others some work in the future!</p>
+<h2>Refactor the code for drawing the tooltips</h2>
+<p>This is <a href="https://github.com/nabilhassein/nyc-summons-precinct-visualization/blob/master/src/components/PrecinctMap.js#L94">some of the dumbest code I’ve written in years</a>.
+I didn’t know that SVGs have a <code>title</code> element,
+so I decided to give each precinct its tooltip by drawing a rectangle based on the user’s mouse coordinates.</p>
+<p>Still though, I’m glad I pushed through and just published something; I had been feeling stuck at the time.</p>
+<h2>Investigate why the python script doesn’t work on my current machine</h2>
+<p>I’ve been putting some effort into making the development environments
+for my various tech projects reproducible and cleanly separated.
+I should get my script to convert the spreadsheet into a CSV working again as part of that process.</p>
+<h1>Acknowledgements</h1>
+<p>I cannot possibly name everyone I am indebted to for publishing this map, but I’d like to shout out
+two of my fellow batchmates at the Recurse Center who made particularly large contributions to me getting this map out there:
+<a href="https://twitter.com/mykola">Mykola Bilokonsky</a>,
+who led several <strong>very</strong> useful sessions about modern frontend web development with React, Redux and related technologies;
+and <a href="https://twitter.com/thistimeitsmimi">Mimi Onuoha</a>,
+who taught me some elementary facts about interactive maps and put many useful resources in my hands about D3.</p>
+</div></div><span style="display:block;clear:both;" data-reactid="20"> </span></div></div></div><script src="/bundle.js?t=1545514519197"></script></body></html>
