@@ -1,5 +1,5 @@
 ---
-title: "On Predictive Policing"
+title: "On predictive policing"
 date: "2017-05-09"
 layout: post
 path: "/blog/on-predictive-policing/"

@@ -76,7 +76,7 @@ I expect that I'll have more thoughts on this point in the future.
 Finally, on Wednesday February 28th, we had a [salon](https://www.youtube.com/watch?v=-zSsJ9c5klA) with some interesting outside speakers.
 I particularly enjoyed hearing [Tega Brain](http://tegabrain.com/) speak about ["Smell Dating"](https://smell.dating/), and [Darius Kazemi](https://tinysubversions.com/) criticizing some of the evasive and dishonest liberal discourse blaming Russia and bots for amerikkka's homegrown problems. (To the extent we can call the racism and related issues of a settler colony "homegrown.")
 
-## hardware week and meet the students
+## hardware week
 For a more comprehensive look at this week, see the [official blog post](https://medium.com/sfpc/spring-2018-week-3-26068381ab30), this time written by my friend and classmate [Sukanya](http://www.playdo.io/).
 
 Our third week was an intensive week of studying electronics, led by [Taeyoon Choi](http://taeyoonchoi.com/), with one guest class taught by [Pedro Oliveira](https://www.pedro.work/) on handmaking a [one-bit computer](https://taeyoonchoi.com/2015/02/1-bit-computer/).
@@ -110,10 +110,14 @@ Also during this week, I brought my piano keyboard there and enjoyed a nice jam 
 It was a lot of fun to play together!
 I've gotten too used to playing music alone.
 
+## meet the students
+<a name="meet-the-students"></a>
 Besides class, a highlight of this past week was our meet the students event on Tuesday March 6th.
-Everyone was very honest in their presentations, which you can watch [here](https://www.youtube.com/watch?v=VQYLW_4dr1g).
+Everyone was very honest in their presentations, which you can watch [in full here](https://www.youtube.com/watch?v=VQYLW_4dr1g).
 All of them are worth watching in my opinion to give you a full sense of our group.
-I presented first out of us students, following an introduction from Taeyoon; I start around 24:13.
+I presented first out of us students, following an introduction from Taeyoon:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQYLW_4dr1g?start=1453" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To even more briefly summarize an already brief four or five minutes: I spoke about a few things I've done in the past, most of which I already mentioned above, besides my paid work in public schools and my unpaid organizing work for police and prison abolition in the movement for Black lives here in NYC.
 I mentioned the frequency of my thoughts about the connections between technology and imperialism, with prompts including the space SFPC currently occupies, which was once associated with Bell Labs, an important company in software history with close military associations.
