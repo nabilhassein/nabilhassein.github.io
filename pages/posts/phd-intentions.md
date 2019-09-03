@@ -1,0 +1,116 @@
+---
+title: "Pre-PhD reflections and intentions"
+date: "2019-09-03"
+layout: post
+path: "/blog/phd-intentions/"
+---
+
+## reflections and intentions
+Today is my first day of a PhD in Media, Culture and Communication (MCC) at NYU Steinhardt, seven years and change after I graduated from NYU's Courant Institute with a degree in mathematics and computer science.
+This reflection is an attempt to leave a record of my perspective before re-entering the academy, to set my intentions for the next several years of study and other work, and to practice accountability to my values and my communities in the face of what often seem like impossible contradictions.
+
+## a PhD is a job
+I view my time in graduate school as a job, first and foremost, even if much of academia's vocabulary or projected image attempts to differentiate it from other capitalist industries.
+Scholarship is an ancient profession, and I believe an honorable one if research and teaching are well practiced, though of course careerist or otherwise unethical scholars are an old phenomenon as well.
+I'm keenly aware that the work of being a scholar is not synonymous with the job of being an academic in today's neoliberal, capitalist-dominated university, where white supremacy, patriarchy and ableism run rampant, and sites of knowledge are also sites of settler colonialism, imperialism, labor exploitation and resource extraction.
+Yet, despite my consciousness of e.g. NYU's reactionary knowledge production and circulation, real estate speculation, complicity in the deaths of Global South migrant workers, and other appalling actions, I am a worker with little choice but to trade my labor for money within the confines of one or another fucked-up institution, and being a graduate student-worker seems like one of the better types of wage work available to me, both selfishly and in terms of what I can offer in service of my communities.
+
+Besides MCC, I also applied to NYU's Atmospheric and Ocean Sciences applied math program (abbreviated AOSM) and CUNY's Geography program, all with the intention to study the relationship between computation and climate change.
+I was rejected from AOSM, and accepted to Geography but without any fellowship or other stable financial/contractual support, making my decision to attend MCC pretty straightforward after considering my housing situation and repeatedly receiving the advice "follow the money" from a number of folks with a lot more experience playing the academic game than me.
+
+In contrast to the loans I took out to pay for my undergraduate study, and the similar financial extraction associated with many master's degree programs, I receive a salary ("stipend") of $30,000 and health insurance just to support my study for the five years of my contract as a PhD student, which I understand is on the generous side as far as graduate school packages go.
+I will also receieve additional wages for serving as a research assistant, teaching assistant, or several other possible positions which I believe include adjunct professor, assistant librarian, and labor union representative; so while I will certainly not be on a road to wealth as a novice media scholar (a path that tempted me as a software developer before my participation in the movement for Black lives around 2014-2016 utterly transformed my outlook and cemented my alienationfrom the so-called tech industry), I feel confident in my ability to continue living in modest comfort.
+As I understand it, my primary job requirement is to make "satisfactory academic progress": to maintain a grade point average of 3.0 or better; to pass two sets of exams administered by my department after my first and second years of coursework; and from the third year on, to progress at a "reasonable" pace on writing a dissertation which constitutes an original contribution to human knowledge (more another time on who gets to be "human" and what is recognized as "knowledge").
+
+Although it is common to take more than five years to complete a PhD, it becomes necessary to find outside funding after the initial money runs out, which I understand as a primary means of discipline to keep moving folks through the system when they otherwise might be in no particular hurry.
+Along with the systems for granting or denying tenure, there are clear parallels between these "up or out" structures in academia as in other industries, such as engineering or law, requiring workers to achieve a certain level in a certain amount of time or else be removed from the organization entirely.
+I understand such means of governing hierarchical organizations as a method of worker discipline which consciously counteracts a more egalitarian ethos, exemplified in my imagination by the Zapatista maxim "bajar y no subir", translatable as "to work from below and not to seek to rise" -- a guiding principle that seems to me far more conducive to the genuine work of being a scholar, again in contrast to the job of being an academic.
+
+Despite the financial and other pressures in academic life -- to publish early and often, attend conferences and other events, fill out a CV, get one of the scarce stable jobs, etc. etc. -- having a five year contract and union membership, both for the first time in my life, is already so much more stability than I or the large majority of my friends and community members are accustomed to, especially since my apartment is also rent-stabilized.
+I intend to use that relative privilege, perhaps expressed most of all in the time at my disposal that so many others lack, to advance the well-being of my communities, which I consider linked to the progress of organizing projects and ideals such as police and prison abolition, anti-imperialism, and socialism.
+
+## research interests
+Although I don't have to start formally writing up my dissertation until my third year of study, the application process did ask for some information about the project I intend to conduct my research on, for which I chose the interrelationships between computing ("technology" is too broad and imprecise) and climate change.
+Previously while working full-time as a computer programmer, I developed a strong interest in this topic which I expressed in an essay "Ecological Prospects for Computing" and a talk based on it called "Computing, climate change, and all our relationships", both of which you can find on this website.
+Later during my last year and change working as a freelancer (mainly teaching coding to high schoolers), I also co-organized a conference called "Code Ecologies" on related themes at the School for Poetic Computation (SFPC), and continued my haphazard reading on these issues and their links to other matters of importance to me.
+In a recent talk I gave as part of a session SFPC taught in Detroit, I expressed my understanding of one of those connections as follows: "There is a very deep connection between the disposability of nature represented by the unprecedented and unsustainable resource consumption associated with the burning of fossil fuels and extraction of minerals required to produce electronics that are designed to be thrown away, and the disposability of people represented by the prison industrial complex."
+
+One of my intentions since starting to write a (much-different) initial version of this piece some months ago has always been to publish this reflection before my classes begin.
+At the same time, one of my reasons for choosing graduate study as a career path even temporarily is the lack of time I've felt as a technologist and an educator, freelance and full-time alike, for broad and deep consideration of the issues that I nevertheless cannot stop myself from thinking about.
+For the sake of getting something out there, here's an incomplete list of undeveloped themes I hope to explore over the next five years or more, in no particular order, again all in the greater context of the relationship between computation and climate change:
+- the organizational and ideological history of the university's subdivisions of knowledge, and their links to imperialism or other forms of power
+- speculation and reparation, "speculation" in its dual financial and theoretical meanings
+- mathematics as metaphor, in contrast to claimed opposition between humanistic/literary/qualitative knowledge and technical/scientific/quantitative knowledge
+- the duality of concealing and revealing in various abstractions and representational mediums
+- the materiality of computing, particularly the vulnerability of "cyberspace" to attack in "meatspace", and vice versa
+- what "software eating the world" means for the global food system
+- expressions of nationality, race, gender, disability and kinship in computation
+- multimedia content creation and circulation in connection to different audiences and communities
+- the history and implementation of programming languages, including their links to linguistics, the study of foreign languages, ancient mathematics and technology from diverse cultures, and various theories of interactive interfaces
+
+## a reading discipline and a writing practice
+I've been a book-loving nerd for as long as I can remember, to the extent of getting in some mild trouble as a child for overdoing it at inappropriate times.
+I've retained a lot from reading, but particularly in the last several years as I've begun publishing my writing in various forums, I've become more conscious of the many limitations of my unaided memory.
+I've started to take more notes as a partial corrective, but finding the time to review and condense them all is work in itself that I often have not prioritized over the other work I have to do, besides the fact that I do not (and probably cannot) take notes on everything I learn.
+
+This raises issues of originality and credit that I understand to be linked to questions of scholarly citation practices.
+As a member and a product of the unhealthy society that I want to change, I have internalized white supremacy, patriarchy, ableism, and other oppressions that undoubtedly continue to manifest themselves in what I recognize as important and choose to value or happen to remember, despite my partially successful efforts to change my thought patterns, feelings and relationships.
+Developing a more strict discipline of note-taking to remember where I learned of certain concepts is one method by which I can attempt to avoid perpetuating the marginalization of the knowledge produced by oppressed groups, wether those I belong to or those I am outside.
+I believe tech tools like Zotero will have their role to play in capturing what I read in a reviewable and shareable form; however, ultimately I believe that continuing to change my own mindsets about what is valuable and where knowledge comes from will be the main part of this crucial task.
+
+To close out this brief discussion, I would like to explicitly note that in no case should a lack of explicit attribution in this informal blog post be interpreted as a claim that whatever thought I record is original to me; probably not one thought here is.
+Like most of my writing that actually sees the light of day, this piece is a rush job to meet an arbitary deadline.
+I barely even include hyperlinks even to documents I remember perfectly well the sources for, partly because I do not remember them all and do not particularly want to privilege certain sources of knowledge over others (especially written over verbal), and partly for time reasons to get this out there.
+Perhaps you can consider this as a positive invitation for you to do your own research on whatever interests you among the topics I raise, rather than just retreading a path I provide for you, dear reader.
+
+Besides note-taking and citation, another critical element of the reading discipline I intend to develop over the next several years is becoming more deliberate about what media I consume in the first place.
+Like most internet users, I am vulnerable to my attention being hijacked by social media, clickbait articles, and various other types of media that are ultimately irrelevant or actively harmful to my experiences and goals.
+My basic idea in developing a reading discipline is to choose ahead of time -- by week, month, semester or year -- at least a sketch of a schedule of what I will read in diverse genres and mediums, including but not limited to the mainstream press (both domestic and international, ideally in several languages), the financial and business press, social media, books including textbooks, articles from technical magazines and journals, art installations, and so forth.
+By explicitly recognizing the limited time I have for all of these things and others, I plan to make the most out of that time to keep up with what is new and solidify my grounding in the foundations of various types and sources of knowledge.
+I've started keeping "social media hours" as one means to this end; more to come on that and other strategies for holding myself accountable.
+
+## the larger academic picture
+I am a partisan of the ancient view that knowledge is one, and intend to conduct my studies accordingly.
+However in the contemporary academic division of knowledge, as a novice media studies scholar, I believe I will mostly be considered a student of the "humanities", though a few might call me a "social scientist"; numerous professors at MCC are formally qualified in fields often (but not always) classified as social sciences, such as sociology, anthropology and history (none in geography, I've noted).
+That seems fine by me -- as Amiri Baraka said in "Technology and Ethos":
+>  The new technology must...begin by being “humanistic” though the white boy has yet to achieve this. Witness a technology that kills both plants & animals, poisons the air & degenerates or enslaves man.
+
+At the same time as I use humanistic lenses to critique the biases and social impact of technical fields which have been associated with war, carceral institutions, and other types of oppression, I am not going to let the humanities off the hook for their own histories of racism and entanglement with power.
+A major part (perhaps *the* major part) of my task as an aspiring radical academic is to produce knowledge which is for my own communities and other oppressed communities, rather than against them, which I take to be the default orientation of imperial sites of knowledge like NYU.
+(I take "producing knowledge" to include documenting and organizing as much as discovering or inventing; I have no special loyalty to novelty, if anything actively preferring antiquity.)
+And though I haven't read most of the larger work which contains it, nor do I have time to discuss it here, the brief essay "the only possible relationship to the university today is a criminal one" from Fred Moten and Stephano Harney's "The Undercommons" has been a large recent influence in my thought about how "criminals", those on the outside, are producing the most relevant knowledge (at least for the goals that I hold dear) and the most beautiful and resilient communities.
+I cannot summarize here my full view of the class character of knowledge as it exists inside and outside the academy; note that I use "class" in an extremely broad sense to mean not only a person's relationship to means of production, but also other categorizations that impact their material circumstances including but not limited to disability, gender, race, ethnicity and nationality.
+
+Instead, I briefly situate some fields of study of interest to me in a highly compressed fashion.
+- Mathematics: ancient, and present somehow in every culture I'm aware of. Broadly, the study of abstract structure. I can read little if any modern mathematical research, at least in the "raw" form produced by specialist researchers. Quasi-objective in content, culturally specific in form. Heavily white-dominated and male-dominated.
+- Computer science: recent, less than 100 years old. Poorly named -- not about computers, and not an empirical science. Close theoretical links to mathematics and linguistics, applications to virtually all other fields.
+- Data science: extremely recent, like not a department at NYU when I graduated in 2012. The new capitalist hotness.
+- Media studies: recent, less than 100 years old. Pretty much everything is mediated, particularly for a researcher studying computers, so hopefully I can study as I see fit without too much interference.
+- Geography: ancient. Indistinct from history to me in an abstract view, since time and space are inseparable according to my understanding of physics. Has a reputation as a radical field, justified by my reading of some scholars, but also has a history of entanglement with imperialism (what Western academic field doesn't?). Considered a bridge between natural science (physical geography) and social science (human geography). Since everything takes place in a place, I thought I would be able to study as I see fit within the broad field, one of the things that appealed to me about the CUNY program which I had to turn down for financial reasons.
+
+Obviously, this leaves out far more than it includes, and I intend to take classes in many other departments besides these five, as well as to share more of what I learn about their interrelationships and situatedness.
+To flesh out this barebones picture, I would like to produce some type of map of the academy, for purposes including aiding my own understanding as I select my classes for my spring semester and subsequent years of the programs, because I have a great many questions about how knowledge is classified and organized within the university which are simple to state but have answers unobvious to me.
+For example, at CUNY the Geography department appears to run most or all of the spatial data analysis laboratories and digitial mapmaking; but at NYU, there is no Geography department.
+Of course that does not mean that no one at NYU does spatial data analysis or creates maps; what it does that mean is that I'll have to spend some time asking around to find out who those people are.
+I have similar questions about who studies the military or any number of other topics of interest to me.
+
+## instead of a conclusion
+There's no real conclusion to this reflection because it is a beginning and not an end.
+In earlier drafts, I considered sharing far more personal detail: about my childhood and upbringing as a colonized Black subject born to an African-American mother and an Egyptian immigrant father; about the impact of the deaths of my older brother (my only sibling) and my father on my perspectives on health including mental health, money and work, and time; my experiences in full-time paid work as a teacher and a software developer, in unpaid work as an anti-police and prison activist, and in freelance work as an educator, writer, event organizer, and more.
+Much of that information can be pieced together from other work I've published, while other bits of it will remain obscure for now to those I have not discussed it with personally.
+My personal definition of "to summarize" is "to lose information", and certainly, this relatively brief summary of my reflections and intentions does exactly that, and still would if it was many times its current length.
+Earlier this year, shortly after I turned 30, I decided to live until at least 90, which has been helping me keep the perspective that there is enough time for everything to be accomplished, and far less need to hurry than to take however long it takes to do things right.
+So with that, instead of a conclusion, here is one last list of over-simplified bullet points on some of my intentions for the next five years of this PhD, assuming my never-had-a-job-for-five-years ass manages to stick it out that long.
+
+- Become an expert on the relationship between computation and climate change in its many diverse facets, historical and contemporary, technical and social.
+- Write and speak honestly and fearlessly about who is responsible for harm, from an open anti-imperialist and police/prison abolitionist perspective. (Ideologically I tend to think of myself as some type of non-denominational communist, though I often avoid that language because I've found others don't share my understanding of what the words mean.)
+- Publish for non-academic audiences semi-regularly and in different forms including essays, poetry, public talks, and code/data projects.
+- Study foreign languages.
+- Teach a variety of subjects to folks from a range of backgrounds, interests, ages, etc.
+- Maintain and develop both my humility and my self-confidence to take up the appropriate amount of space in any setting I move in.
+- Continue to participate in movement work such as the No New Jails NYC campaign I've been involved with, neighborhood life such as our new tenants' union, and the forms of culture that have brought me joy including music, boxing and games.
+- Take advantage of new and likely temporary opportunities for organizing such as my new union, GSOC-UAW, and resources such as free classes in judo or jiu-jitsu, to realize my longstanding goal of learning a grappling martial art as a complement to my basis in striking from boxing and tae kwon do.
+- Take good care of my body, my home, my friends and my family.
+
+There's always more, but that will have to do for now.
+I look forward to hearing others' thoughts on my work, and to checking these intentions against reality as it unfolds.
