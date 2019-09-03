@@ -31,7 +31,7 @@ I intend to use that relative privilege, perhaps expressed most of all in the ti
 ## research interests
 Although I don't have to start formally writing up my dissertation until my third year of study, the application process did ask for some information about the project I intend to conduct my research on, for which I chose the interrelationships between computing ("technology" is too broad and imprecise) and climate change.
 Previously while working full-time as a computer programmer, I developed a strong interest in this topic which I expressed in an essay "Ecological Prospects for Computing" and a talk based on it called "Computing, climate change, and all our relationships", both of which you can find on this website.
-Later during my last year and change working as a freelancer (mainly teaching coding to high schoolers), I also co-organized a conference called "Code Ecologies" on related themes at the School for Poetic Computation (SFPC), and continued my haphazard reading on these issues and their links to other matters of importance to me.
+Later during my last year and change working as a freelancer (mainly teaching coding to high schoolers), I also co-organized a conference called "Code Ecologies" on related themes at SFPC, and continued my haphazard reading on these issues and their links to other matters of importance to me.
 In a recent talk I gave as part of a session SFPC taught in Detroit, I expressed my understanding of one of those connections as follows: "There is a very deep connection between the disposability of nature represented by the unprecedented and unsustainable resource consumption associated with the burning of fossil fuels and extraction of minerals required to produce electronics that are designed to be thrown away, and the disposability of people represented by the prison industrial complex."
 
 One of my intentions since starting to write a (much-different) initial version of this piece some months ago has always been to publish this reflection before my classes begin.
@@ -46,6 +46,19 @@ For the sake of getting something out there, here's an incomplete list of undeve
 - expressions of nationality, race, gender, disability and kinship in computation
 - multimedia content creation and circulation in connection to different audiences and communities
 - the history and implementation of programming languages, including their links to linguistics, the study of foreign languages, ancient mathematics and technology from diverse cultures, and various theories of interactive interfaces
+
+## a teaching practice
+I've worked in schools in one way or another almost continuously since graduating high school: I was an elementary school classroom assistant for all four years of my undergraduate degree, working in a combined first and second grade classroom; I became a high school math teacher in rural Arkansas as my first job out of college; and after returning to NYC to work in the software industry, I volunteered in several public schools, mainly teaching code.
+After quitting my last full-time job in early 2018, I attended the School for Poetic Computation (SFPC), and have since been working there part-time in various capacities including teaching assistant, teacher, and event organizer.
+My other source of part-time work and primary source of income for the last year and a half has been teaching code to high schoolers, working with many different programs of varying content and length, in some cases with preset curriculum, in other cases inventing some of my own.
+So, while I have a fair amount of classroom experience, I haven't taught at a post high school level, except to the extent that SFPC (an independent, non-accredited, artist-run school) counts.
+
+As I write this, I'm feeling happy with how much my practice as a teacher grew this past summer, but fuller reflections will have to wait for another time.
+Right now, I'm looking forward to the chance to be a TA and an "instructor of record" at NYU and perhaps other schools like CUNY, especially in terms of the opportunity to design my own classes, despite my trepidations around certain required aspects of this formal setting -- especially grades which I consider to be a complete distraction from actual learning, and which I haven't had to deal with since the 2012-2013 school year.
+
+I've been thinking a lot about the colonial-ass education I've received as a site of oppression that I've reproduced for too many of my students.
+SFPC in particular has helped me to unlearn some of those patterns, and I am determined not to relearn them at NYU.
+Much more to come on this point.
 
 ## a reading discipline and a writing practice
 I've been a book-loving nerd for as long as I can remember, to the extent of getting in some mild trouble as a child for overdoing it at inappropriate times.
