@@ -2,7 +2,7 @@
 title: Projects
 path: /projects
 ---
-For the most part, these projects are just for fun.
+For the most part, these programming projects are just for fun.
 All are incomplete in the sense that I have ideas for more work I could do on each of them, but that will always be the case -- at some point you have to move on.
 I've done enough work on these projects to be willing to post them live online, and consider that it makes sense to spend time documenting them, rather than just doing more coding work on them.
 

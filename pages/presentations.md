@@ -6,6 +6,18 @@ I've given more presentations than I can recall in my years as a teacher, an org
 In some of those cases, you might find other documentation such as my own notes or slides, on this website or my github or elsewhere.
 This particular page is purely for videos of presentations that were recorded.
 
+## Close Rikers Now and No New Jails
+I gave the ~2 minute speech at the beginning of this video on September 5th 2019, at the one and only hearing the New York City Council chose to hold on their disastrous plan to build new jails, over the course of a land use process that stretched on for more than a year.
+There are a lot of other great speeches from my fellow organizers in this compilation, as well!
+And without vainly attempting to summarize here the campaign, I would be remiss not to say that despite the City Council vote on October 17th to build new jails, [No New Jails NYC](https://nonewjails.nyc) continues to be active in fighting jail expansion, and welcomes the involvement of folks wanting to contribute to police and prison abolitionist work.
+No new jail has yet been built, and it is not too late to bring the campaign to a victorious conclusion.
+
+Earlier the same day, I gave what I consider my best speech of the campaign at a rally in Abolition Square (also known as City Hall Park), but I believe that unfortunately it was not recorded.
+Neither were several other speeches I gave at other events of our own, which are obviously more welcoming for me and my comrades than a venue where you must submit to a police search and obey settler-colonizer decorum at the risk of being violently ejected, but I'm still mostly satisfied with my own performance here given all of the constraints.
+One of these days I should compile some of the notes I prepared for those other speeches and publish those, too. But anyway:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JBRlvwUKsCw" frameborder="0" allowfullscreen></iframe>
+
 ## Computing, climate change, and all our relationships
 This ~40 minute presentation was my first ever large conference talk, given on May 21st 2018 at Deconstructconf.
 You can [read my more full reflections here](/blog/computing-climate-change-and-all-our-relationships/) on this website, as well as either [viewing the video or reading the transcript at the Deconstructconf website](https://www.deconstructconf.com/2018/nabil-hassein-computing-climate-change-and-all-our-relationships).
