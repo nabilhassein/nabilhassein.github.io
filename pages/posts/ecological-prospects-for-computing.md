@@ -4,7 +4,7 @@ date: "2018-12-22"
 layout: post
 path: "/blog/ecological-prospects-for-computing/"
 ---
-*This piece was originally written in the first quarter of 2018, and published in issue #10 of [The Recompiler](https://recompilermag.com/), in print as of November 2018. Official URL for non-subscribers forthcoming.*
+*This piece was originally written in the first quarter of 2018, and [published in issue #10 of The Recompiler](https://recompilermag.com/issues/issue-10/ecological-prospects-for-computing/), in print as of November 2018 and online as of 2019.*
 
 ## Introduction
 
